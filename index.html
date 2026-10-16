@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Daily Ledger — responsive news website with live headlines">
+    <title>The Daily Ledger | News and Analysis</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body data-view="home">
+    <header>
+        <div class="utility-bar">
+            <div class="page-width">
+                <span id="today">TUESDAY, OCTOBER 16, 2026</span>
+                <span>SUBSCRIBE &nbsp; • &nbsp; SIGN IN</span>
+            </div>
+        </div>
+        <div class="masthead page-width">
+            <div>
+                <a class="brand" href="#home">THE DAILY LEDGER</a>
+                <p>INDEPENDENT NEWS AND ANALYSIS</p>
+            </div>
+            <div class="tools">
+                <button id="menu-btn" aria-label="Open menu">☰</button>
+                <button id="search-btn" aria-label="Search">⌕</button>
+                <a class="subscribe" href="#newsletter" id="subscribe-btn">SUBSCRIBE</a>
+            </div>
+        </div>
+        <nav class="page-width" id="primary-nav" aria-label="Primary navigation">
+                <a href="#home" class="active">HOME</a>
+                <a href="#latest">LATEST</a>
+                <a href="#india">INDIA</a>
+                <a href="#world">WORLD</a>
+                <a href="#business">BUSINESS</a>
+                <a href="#tech">TECH</a>
+                <a href="#sports">SPORTS</a>
+                <a href="#culture">CULTURE</a>
+                <a href="#opinion">OPINION</a>
+        </nav>
+    </header>
+    <main class="page-width" data-view="home">
+    <section class="breaking">
+                    <strong>BREAKING</strong>
+                    <a href="#">Markets rally as policy announcement boosts investor confidence</a>
+                </section>
+                <section class="top-grid">
+                    <article class="lead-story">
+                        <p class="eyebrow">TOP STORY</p>
+                        <div class="" >
+                            <img src="https://images.financialexpressdigital.com/2023/05/Breaking-news-photo-5.jpg?w=1200" alt="" srcset="">
+                            <!-- <span>NATIONAL AFFAIRS</span> -->
+                        </div>
+                        <h1>A decisive week reshapes the country's economic outlook</h1>
+                        <p class="byline">
+                            By Aisha Rahman <span>•</span>
+                            18 min ago
+                        </p>
+                        <p class="summary">Key developments, expert reaction and what it means for households.</p>
+                    </article>
+                    <aside id="latest" class="latest">
+                        <p class="eyebrow">LATEST NEWS</p>
+                        <article>
+                            <div class="">
+                                <img class="news-image" src="https://cdn.prod.website-files.com/67a0ab1e51deab39ba2312a3/6908924791c9ad19a63a3fa5_ChatGPT%20Image%20Nov%203%2C%202025%2C%2004_59_26%20PM.png" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">BUSINESS</p>
+                                <h2>Startups turn to new markets for growth</h2>
+                                <time>43 min ago</time>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="">
+                                <img class="news-image" src="https://cdn.prod.website-files.com/67a0ab1e51deab39ba2312a3/6908924791c9ad19a63a3fa5_ChatGPT%20Image%20Nov%203%2C%202025%2C%2004_59_26%20PM.png" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">WORLD</p>
+                                <h2>Leaders meet amid renewed calls for action</h2>
+                                <time>1 hour ago</time>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="">
+                                <img class="news-image" src="https://cdn.prod.website-files.com/67a0ab1e51deab39ba2312a3/6908924791c9ad19a63a3fa5_ChatGPT%20Image%20Nov%203%2C%202025%2C%2004_59_26%20PM.png" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">CLIMATE</p>
+                                <h2>Cities prepare for an unusually wet season</h2>
+                                <time>2 hours ago</time>
+                            </div>
+                        </article>
+                    </aside>
+                </section>
+                <section class="more">
+                    <p class="eyebrow">MORE FROM THE DAILY LEDGER</p>
+                    <div class="cards">
+                        <article class="card">
+                            <div class="">
+                                <img id = "digital" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9XQdmiGe_4p3kxN90JN_azcGvDoKE2WkKxahKQ6KLolgzQh-m5viX3bI&s=10" alt="" srcset="">
+                            </div>
+                            <p class="category">TECHNOLOGY</p>
+                            <h2>The changing rules of digital privacy</h2>
+                            <time>6 min read</time>
+                        </article>
+                        <article class="card">
+                            <div class="">
+                                <img id = "cult" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrPc46rK7jKTlScSh8UCzLfJh2gbwSIT8BCFDPX0lnMw&s=10" alt="" srcset="">
+                            </div>
+                            <p class="category">CULTURE</p>
+                            <h2>A new chapter for independent cinema</h2>
+                            <time>8 min read</time>
+                        </article>
+                        <article class="card">
+                            <div class="">
+                                <img id = "sport" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfSEMqJdiIqav8UgprL3UNnAyZ7wOkIJqMhLrqC6OQq5zG4LgTLZy1-bg&s=10" alt="" srcset="">
+                            </div>
+                            <p class="category">SPORTS</p>
+                            <h2>A season of momentum and surprises</h2>
+                            <time>5 min read</time>
+                        </article>
+                        <aside class="newsletter">
+                            <p>THE MORNING BRIEF</p>
+                            <h2>The news, in your inbox.</h2>
+                            <span>Start your day with our essential stories.</span>
+                            <form>
+                                <label class="sr-only" for="email">Email address</label>
+                                <input  type="email" placeholder="Your email address"/>
+                                <button type="submit">SIGN UP</button>
+                            </form>
+                        </aside>
+                    </div>
+                </section>
+    </main>
+    <main class="page-width category-page" data-view="latest" hidden>
+    <p class="eyebrow">NEWS DESK</p>
+                <h1>Latest News</h1>
+                <p class="intro">The most important stories, updated throughout the day.</p>
+                <div class="ad-slot">ADVERTISEMENT</div>
+                <section class="category-layout">
+                    <div class="story-list">
+                        <article class="featured-list">
+                            <div class="listing-image latest-lead">
+                                <img class="img1"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5eTd8U2CQQT6tN6yvaihivwoFY5YXrgG1I_-YV5QOSBYYmgAbxW5K2-Q&s=10" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">LIVE UPDATES</p>
+                                <h2>Markets rally as policy announcement boosts investor confidence</h2>
+                                <p>Our reporters track the latest developments and the response across the country.</p>
+                                <time>18 min ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image latest-two">
+                                <img class="img2"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBl7mBzNNRIcdf8tZ7glghrOu5Zw9-wYHgQt-DV8Hr0IMCTmyPDZFVoy0&s=10" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">NATIONAL AFFAIRS</p>
+                                <h2>Cabinet outlines its priorities for the coming session</h2>
+                                <p>Officials set out a new timetable for major decisions.</p>
+                                <time>1 hour ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image latest-three">
+                                <img class="img3" src="https://www.scconline.com/blog/wp-content/uploads/2026/09/Digital-Privacy-Literacy.webp" alt="">
+                            </div>
+                            <div>
+                                <p class="category">TECHNOLOGY</p>
+                                <h2>New digital rules place privacy at the centre of the debate</h2>
+                                <p>What consumers and companies need to know.</p>
+                                <time>2 hours ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image latest-four">
+                                <img class="img4"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCzENRz4p26rC7tu9dKZDaJpQqL3y8e0RUuCLwRIJlRORX9Ey-7TyHboU&s=10" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">SPORTS</p>
+                                <h2>Team selection sparks excitement ahead of the season opener</h2>
+                                <p>Coaches make their final preparations.</p>
+                                <time>3 hours ago</time>
+                            </div>
+                        </article>
+                    </div>
+                    <aside class="sidebar">
+                        <h2>Most Read</h2>
+                        <p>Clear reporting and essential context, delivered straight to your inbox.</p>
+                        <form class="sidebar-form">
+                            <input type="email" placeholder="Email address">
+                            <button>SIGN UP</button>
+                        </form>
+                        <div class="sidebar-ad">ADVERTISEMENT
+                    <img class="img5" src="https://s3.india.com/wp-content/uploads/2026/06/IND_Selection_Blog.jpg" alt="" srcset="">
+                        </div>
+                        
+                    </aside>
+                </section>
+    </main>
+    <main class="page-width category-page" data-view="india" hidden>
+    <p class="eyebrow">THE NATION</p>
+                <h1>India</h1>
+                <p class="intro">Politics, policy, economy and the stories shaping everyday life.</p>
+                <div class="ad-slot">ADVERTISEMENT</div>
+                <section class="category-layout">
+                    <div class="story-list">
+                        <article class="featured-list">
+                            <div class="listing-image india-lead">
+                                <img class="img1"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpy-ColPOahY2lkQxnJ4EUx8q8xKbHH8-Er1X901Fi0PiOF1X4N8UP85A&s=10" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">POLITICS</p>
+                                <h2>State leaders gather to discuss the next phase of public investment</h2>
+                                <p>A closer look at the questions driving the national conversation.</p>
+                                <time>18 min ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image india-two">
+                                <img class="img2"src="https://media.licdn.com/dms/image/v2/D5612AQFc3_viMdV0Eg/article-cover_image-shrink_720_1280/B56ZujMU.9HgAM-/0/1767969481332?e=2147483647&v=beta&t=REmZ4hG0QGe-qr5C4rPckpzpDS7GiAkFZJN0RUcW7AA" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">ECONOMY</p>
+                                <h2>Small businesses look ahead as new incentives take effect</h2>
+                                <p>Entrepreneurs explain where confidence is returning.</p>
+                                <time>1 hour ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image india-three">
+                                <img class="img3"src="https://ars.els-cdn.com/content/image/1-s2.0-S2351989425005517-ga1.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">SOCIETY</p>
+                                <h2>Communities find fresh ways to preserve local traditions</h2>
+                                <p>A changing generation reconnects with its roots.</p>
+                                <time>2 hours ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image india-four">
+                                <img class="img4" src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202204/CGC-2022-01-press_0.jpg?itok=97PX6p1i" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">SCIENCE</p>
+                                <h2>Research teams accelerate work on practical climate solutions</h2>
+                                <p>Innovation moves from the laboratory to the field.</p>
+                                <time>3 hours ago</time>
+                            </div>
+                        </article>
+                    </div>
+                    <aside class="sidebar">
+                        <h2>India Briefing</h2>
+                        <p>Clear reporting and essential context, delivered straight to your inbox.</p>
+                        <form class="sidebar-form">
+                            <input type="email" placeholder="Email address">
+                            <button>SIGN UP</button>
+                        </form>
+                        <div class="sidebar-ad">ADVERTISEMENT
+                            <img class="img5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgDP0Z8ijjKMIOTZjCuUHUvSVRRTPe_D19VRnyMXH4bQkJNqjtKhSPRTqT&s=10" alt="" srcset="">
+                        </div>
+                    </aside>
+                </section>
+    </main>
+    <main class="page-width category-page" data-view="world" hidden>
+    <p class="eyebrow">GLOBAL REPORT</p>
+                <h1>World</h1>
+                <p class="intro">Reporting from the people and places making global news.</p>
+                <div class="ad-slot">ADVERTISEMENT</div>
+                <section class="category-layout">
+                    <div class="story-list">
+                        <article class="featured-list">
+                            <div class="listing-image world-lead">
+                                <img class="img1"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyfXYjvBFCYW0klWnFs29wf7t-DLPrINKF_bG9SnqEO5pnZgqDREUNjj0&s=10" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">DIPLOMACY</p>
+                                <h2>Leaders meet amid renewed calls for coordinated global action</h2>
+                                <p>Correspondents report on the priorities emerging from the talks.</p>
+                                <time>18 min ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image world-two">
+                                <img class="img2"src="https://www.visualcapitalist.com/wp-content/uploads/2026/07/Most-and-Least-Liveable-Citiess_02-share.webp" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">EUROPE</p>
+                                <h2>Communities consider a future built around more liveable cities</h2>
+                                <p>Urban plans aim to make daily life healthier and simpler.</p>
+                                <time>1 hour ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image world-three">
+                                <img class="img3"src="https://miro.medium.com/v2/resize:fit:1400/1*HOzgm9NhgRhfArErDvVQSQ.png"src="https://miro.medium.com/v2/resize:fit:1400/1*HOzgm9NhgRhfArErDvVQSQ.png" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">ASIA PACIFIC</p>
+                                <h2>New partnerships reshape the region's trade routes</h2>
+                                <p>Businesses prepare for a more connected market.</p>
+                                <time>2 hours ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image world-four">
+                                <img class="img4" src="https://idronline.org/wp-content/uploads/2024/10/diagram-1-pls-convert-to-webp.webp" alt="">
+                            </div>
+                            <div>
+                                <p class="category">CLIMATE</p>
+                                <h2>Coastal cities plan for a changing relationship with the sea</h2>
+                                <p>Scientists and residents work on long-term answers.</p>
+                                <time>3 hours ago</time>
+                            </div>
+                        </article>
+                    </div>
+                    <aside class="sidebar">
+                        <h2>World Newsletter</h2>
+                        <p>Clear reporting and essential context, delivered straight to your inbox.</p>
+                        <form class="sidebar-form">
+                            <input type="email" placeholder="Email address">
+                            <button>SIGN UP</button>
+                        </form>
+                        <div class="sidebar-ad">ADVERTISEMENT
+                            <img class="img5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNvL6WWMQzK9nDrZjvL9qeA1Z5990GeNQ02NP9ddhjA6k7m3IMblNwdwgI&s=10" alt="" srcset="">
+                        </div>
+                    </aside>
+                </section>
+    </main>
+    <main class="page-width category-page" data-view="business" hidden>
+    <p class="eyebrow">MARKETS AND MONEY</p>
+                <h1>Business</h1>
+                <p class="intro">Companies, markets and the forces shaping the economy.</p>
+                <div class="ad-slot">ADVERTISEMENT</div>
+                <section class="category-layout">
+                    <div class="story-list">
+                        <article class="featured-list">
+                            <div class="listing-image image-business">
+                                <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZyjA1X5EjKhzUJD8heTEL1N-DJGhABJK71Qjv7G3-9FzncLGtHiEAiEw8&s=10" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">MARKETS</p>
+                                <h2>Investors look for clarity as a new quarter begins</h2>
+                                <p>Analysts explain what is moving markets and where opportunities may emerge.</p>
+                                <time>18 min ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-india">
+                                <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJL2K3shhKelcOAUacR7kChBi1A9ZVBR0LZQUu8zEwJA&s=10" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">ECONOMY</p>
+                                <h2>Small businesses plan their next chapter</h2>
+                                <p>Owners find fresh confidence in changing conditions.</p>
+                                <time>1 hour ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-tech">
+                                <img class="img3"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuJos-YxdLZ1y6z2CmXdPn6HWJlyCf0HI0f3ruLf2sHlcPG3FNU-eJB1c&s=10" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">INNOVATION</p>
+                                <h2>The founders building practical tools for modern work</h2>
+                                <p>A focus on useful technology is attracting attention.</p>
+                                <time>2 hours ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-opinion">
+                                <img class="img4"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_9CfFztoxW9uNG1ru8l-8waauT2LyiQUEQS62hiL2k6vax3UceITedCPW&s=10" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">ANALYSIS</p>
+                                <h2>Why long-term thinking is back on the boardroom agenda</h2>
+                                <p>Leaders weigh growth against resilience.</p>
+                                <time>3 hours ago</time>
+                            </div>
+                        </article>
+                    </div>
+                    <aside class="sidebar">
+                        <h2>Business Briefing</h2>
+                        <p>Clear reporting and essential context, delivered straight to your inbox.</p>
+                        <form class="sidebar-form">
+                            <input type="email" placeholder="Email address" aria-label="Email address">
+                            <button>SIGN UP</button>
+                        </form>
+                        <div class="sidebar-ad">ADVERTISEMENT
+                            <img class="img5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLDkKkJOx6Le9A9PQ-QlFQnD__G9YActFL3eQRVR9Oa9cy990XmRZveRA&s=10" alt="" srcset="">
+                        </div>
+                    </aside>
+                </section>
+    </main>
+    <main class="page-width category-page" data-view="tech" hidden>
+    <p class="eyebrow">THE DIGITAL WORLD</p>
+                <h1>Technology</h1>
+                <p class="intro">Ideas, products and people changing the way we live and work.</p>
+                <div class="ad-slot">ADVERTISEMENT</div>
+                <section class="category-layout">
+                    <div class="story-list">
+                        <article class="featured-list">
+                            <div class="listing-image image-tech">
+                                <img class="img1"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9XQdmiGe_4p3kxN90JN_azcGvDoKE2WkKxahKQ6KLolgzQh-m5viX3bI&s=10" alt="">
+                            </div>
+                            <div>
+                                <p class="category">DIGITAL POLICY</p>
+                                <h2>The changing rules of digital privacy</h2>
+                                <p>New standards are bringing choice, transparency and accountability to the centre of technology.</p>
+                                <time>18 min ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-business">
+                                <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSvAo9GhKHRWD08Et9AGovBs1MU-cws17NIYQY4cSqGIJdBNMkzXF0idJa&s=10" alt="">
+                            </div>
+                            <div>
+                                <p class="category">STARTUPS</p>
+                                <h2>New tools help teams make better decisions</h2>
+                                <p>Builders are putting simplicity ahead of complexity.</p>
+                                <time>1 hour ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-world">
+                                <img class="img3"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtyAFyaQ5HDZ9mY42cxl8hYhaVmYi3WzZ3wQpaMoOZW2J8J2azf5gXnME&s=10" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">GLOBAL TECH</p>
+                                <h2>A fresh race to build trusted digital infrastructure</h2>
+                                <p>Governments and companies rethink essential systems.</p>
+                                <time>2 hours ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-opinion">
+                                <img class="img4"src="https://media.licdn.com/dms/image/v2/D5612AQEKWePeH-IONA/article-cover_image-shrink_720_1280/B56Z9.b2m8KcAQ-/0/1784532661546?e=2147483647&v=beta&t=tUakBJ9WU5ljgdAO3InWFHmmj6hZIUdfc7XWZCJeR-c" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">COMMENTARY</p>
+                                <h2>Technology needs more human questions</h2>
+                                <p>The best products start with the right problems.</p>
+                                <time>3 hours ago</time>
+                            </div>
+                        </article>
+                    </div>
+                    <aside class="sidebar">
+                        <h2>Tech Dispatch</h2>
+                        <p>Clear reporting and essential context, delivered straight to your inbox.</p>
+                        <form class="sidebar-form">
+                            <input type="email" placeholder="Email address" aria-label="Email address">
+                            <button>SIGN UP</button>
+                        </form>
+                        <div class="sidebar-ad">ADVERTISEMENT
+                            <img class="img5"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStrAcxmfEXN8jUxHaaYFVt7Njjz0qT_2Vyp4ikT_5k5uzd9QliZoNFqdE&s=10" alt="" srcset="">
+                        </div>
+                    </aside>
+                </section>
+    </main>
+    <main class="page-width category-page" data-view="sports" hidden>
+    <p class="eyebrow">THE PLAYBOOK</p>
+                <h1>Sports</h1>
+                <p class="intro">Results, analysis and the stories behind the score.</p>
+                <div class="ad-slot">ADVERTISEMENT</div>
+                <section class="category-layout">
+                    <div class="story-list">
+                        <article class="featured-list">
+                            <div class="listing-image image-sports">
+                                <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdv2UELAGo1qhiqkiIqlhTGpkEY1h61YO-HMUjO7QnCALwmOwLoyNBSzfc&s=10" alt="">
+                            </div>
+                            <div>
+                                <p class="category">SEASON PREVIEW</p>
+                                <h2>A season of momentum and surprises</h2>
+                                <p>The opening fixtures signal a fiercely competitive year for teams and supporters.</p>
+                                <time>18 min ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-india">
+                                <img class="img2"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsqpUPilUYFcUBXJ5MKZB8dsn3XO9AQ6yRxmyEm-NH070T3O1avH3VNqC1&s=10" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">CRICKET</p>
+                                <h2>Young players seize a decisive moment</h2>
+                                <p>A confident new group earns its place on the stage.</p>
+                                <time>1 hour ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-world">
+                                <img class="img3"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOro_q4Qof6TcZBg22eoZXjS33EdOoCy9RrSJPYmHh2KUdf6kyW61smXSv&s=10" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">FOOTBALL</p>
+                                <h2>The next generation takes centre field</h2>
+                                <p>Clubs look towards a fast and exciting future.</p>
+                                <time>2 hours ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-climate">
+                                    <img class="img4"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRendiAt1Tv09sECEbtDRO7R2T_S6tlvoyMz5Ml_s25YoMup-tTfJxBaRQ&s=10" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">WELLNESS</p>
+                                <h2>Why recovery has become sport's competitive edge</h2>
+                                <p>Athletes are putting long-term health first.</p>
+                                <time>3 hours ago</time>
+                            </div>
+                        </article>
+                    </div>
+                    <aside class="sidebar">
+                        <h2>Sports Weekly</h2>
+                        <p>Clear reporting and essential context, delivered straight to your inbox.</p>
+                        <form class="sidebar-form">
+                            <input type="email" placeholder="Email address" aria-label="Email address">
+                            <button>SIGN UP</button>
+                        </form>
+                        <div class="sidebar-ad">ADVERTISEMENT
+                                    <img class="img5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRoCxPlUBOTGYHu8Vjs4CewmvzK3C-aLoISKCFY0ocRY_ye9sfZk0Uw3On&s=10" alt="" srcset="">
+                        </div>
+                    </aside>
+                </section>
+    </main>
+    <main class="page-width category-page" data-view="culture" hidden>
+    <p class="eyebrow">ARTS AND IDEAS</p>
+                <h1>Culture</h1>
+                <p class="intro">The books, films, food and creative voices worth knowing.</p>
+                <div class="ad-slot">ADVERTISEMENT</div>
+                <section class="category-layout">
+                    <div class="story-list">
+                        <article class="featured-list">
+                            <div class="listing-image image-culture">
+                                <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgv6hsfyUi_gjpgGpJNMgdp1hNF3e7zOFXQuPZKajQnaMjgRUIv006M0Cw&s=10" alt="" srcset="">
+                            </div>
+                            <div>
+                                <p class="category">FILM</p>
+                                <h2>A new chapter for independent cinema</h2>
+                                <p>Fresh voices are finding a wider audience and making ambitious stories on their own terms.</p>
+                                <time>18 min ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-india">
+                                <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgettX83XJLUq_3HXVtBzHuYkWrHa5MI95DraBrthoWIJeXsonlZv6Cuuq&s=10" alt="">
+                            </div>
+                            <div>
+                                <p class="category">ARTS</p>
+                                <h2>A city museum opens its doors to a new generation</h2>
+                                <p>Curators create a more welcoming experience.</p>
+                                <time>1 hour ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-world">
+                                <img class="img3"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiPDZgiYF69ejorf8XApQS4Jiqs_GH4LLlWiNDxtRH3nNxo6gtGQiKEOo&s=10" alt="">
+                            </div>
+                            <div>
+                                <p class="category">BOOKS</p>
+                                <h2>Writers find new ways to reach their readers</h2>
+                                <p>Small presses are making a major impact.</p>
+                                <time>2 hours ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-opinion">
+                                <img class="img4"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPZFk4jCcWl1OFSSa20NXlhjplqubxV9ciHmWPmgAWlr6d_0dztnEGriQ&s=10" alt="">
+                            </div>
+                            <div>
+                                <p class="category">ESSAY</p>
+                                <h2>What makes a place feel like home</h2>
+                                <p>The small details that shape a shared life.</p>
+                                <time>3 hours ago</time>
+                            </div>
+                        </article>
+                    </div>
+                    <aside class="sidebar">
+                        <h2>Culture Notes</h2>
+                        <p>Clear reporting and essential context, delivered straight to your inbox.</p>
+                        <form class="sidebar-form">
+                            <input type="email" placeholder="Email address" aria-label="Email address">
+                            <button>SIGN UP</button>
+                        </form>
+                        <div class="sidebar-ad">ADVERTISEMENT
+                            <img class="img5" src="https://i.pinimg.com/736x/42/80/c0/4280c0bc4a74bb0662d31b50144fc862.jpg" alt="" srcset="">
+                        </div>
+                    </aside>
+                </section>
+    </main>
+    <main class="page-width category-page" data-view="opinion" hidden>
+    <p class="eyebrow">IDEAS AND COMMENTARY</p>
+                <h1>Opinion</h1>
+                <p class="intro">Thoughtful arguments from writers with something useful to say.</p>
+                <div class="ad-slot">ADVERTISEMENT</div>
+                <section class="category-layout">
+                    <div class="story-list">
+                        <article class="featured-list">
+                            <div class="listing-image image-opinion">
+                                <img class="img1"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4bjKjt2ZK_S243iC2YDdh3DCWTGWkeBD8Q5LNKlb6nwh6YkHG0gokB1E&s=10" alt="">
+                            </div>
+                            <div>
+                                <p class="category">EDITORIAL</p>
+                                <h2>The case for slower, better public debate</h2>
+                                <p>The questions worth asking before we rush to conclusions in a fast-moving world.</p>
+                                <time>18 min ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-business">
+                                <img class="img2"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtTthSW5BybjeHZWqe9RZen6Gk1evp-avU47HLgTelZy1Ro5jCXdz3tw__&s=10" alt="">
+                            </div>
+                            <div>
+                                <p class="category">ECONOMY</p>
+                                <h2>Growth must mean more than a bigger number</h2>
+                                <p>A broader definition of success serves everyone.</p>
+                                <time>1 hour ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-tech">
+                                <img class="img3" src="https://images.wsj.net/im-690028/M" alt="">
+                            </div>
+                            <div>
+                                <p class="category">TECHNOLOGY</p>
+                                <h2>Digital life should leave room for doubt</h2>
+                                <p>Critical thinking is a modern survival skill.</p>
+                                <time>2 hours ago</time>
+                            </div>
+                        </article>
+                        <article class="list-item">
+                            <div class="listing-image image-climate">
+                                <img class="img4"src="https://quotefancy.com/media/wallpaper/3840x2160/1827486-James-Cameron-Quote-Hope-is-not-a-strategy-Luck-is-not-a-factor.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="category">CLIMATE</p>
+                                <h2>Hope is a strategy when it leads to action</h2>
+                                <p>Progress starts with choices we can make today.</p>
+                                <time>3 hours ago</time>
+                            </div>
+                        </article>
+                    </div>
+                    <aside class="sidebar">
+                        <h2>Opinion Digest</h2>
+                        <p>Clear reporting and essential context, delivered straight to your inbox.</p>
+                        <form class="sidebar-form">
+                            <input type="email" placeholder="Email address" aria-label="Email address">
+                            <button>SIGN UP</button>
+                        </form>
+                        <div class="sidebar-ad">ADVERTISEMENT
+                            <img class="img5"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1hXLnsPnWKQDA_PvJjg65NpDZOQ5nw-FbWjwBa6-wxcKod0P51VeO6aTd&s=10" alt="">
+                        </div>
+                    </aside>
+                </section>
+    </main>
+    <footer>
+        <div class="page-width">© 2026 The Daily Ledger &nbsp; · &nbsp; Privacy &nbsp; · &nbsp; Terms</div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
